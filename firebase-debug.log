@@ -1,0 +1,18 @@
+[debug] [2022-10-13T17:43:57.972Z] ----------------------------------------------------------------------
+[debug] [2022-10-13T17:43:57.975Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ldl_m\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-10-13T17:43:57.976Z] CLI Version:   11.14.1
+[debug] [2022-10-13T17:43:57.977Z] Platform:      win32
+[debug] [2022-10-13T17:43:57.977Z] Node Version:  v18.2.0
+[debug] [2022-10-13T17:43:58.002Z] Time:          Thu Oct 13 2022 14:43:57 GMT-0300 (hora estándar de Argentina)
+[debug] [2022-10-13T17:43:58.002Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-13T17:43:58.009Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as marcelo.lunadallalasta@gmail.com
+[debug] [2022-10-13T17:44:05.821Z] Error: Timed out.
+    at Timeout.<anonymous> (C:\Users\ldl_m\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-10-13T17:44:06.049Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-10-13T17:44:06.049Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
