@@ -32,7 +32,7 @@ export class NewEducacionComponent implements OnInit {
 
       this.educacionService.save(educacion).subscribe(
       data => {
-        alert("se agregó la nueva Experiencia Laboral");
+        alert("se agregó la nueva Educación");
         this.router.navigate(['']);
       }, err => {
         console.log(err);

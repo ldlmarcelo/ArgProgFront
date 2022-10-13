@@ -23,7 +23,7 @@ educacion: Educacion=null;
       data=>{
         this.educacion=data;
       }, err =>{
-        alert("No se pudo modificar la experiencia");
+        alert("No se pudo modificar");
         this.router.navigate(['']);
       }
     )
