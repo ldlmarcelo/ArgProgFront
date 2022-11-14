@@ -8,7 +8,7 @@ import { softskill } from '../model/softskill';
 })
 
 export class SoftskillService {
-  URL = 'http://localhost:8080/softskill/';
+  URL = 'https://backendmjldl.herokuapp.com/softskill/';
 
   constructor(private http: HttpClient) {
 
