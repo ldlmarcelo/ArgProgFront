@@ -8,7 +8,7 @@ import { hardskill } from '../model/hardskill';
   providedIn: 'root'
 })
 export class HardskillService {
-  URL = 'open-elie-ldlmarcelo.koyeb.app/hardskill/';
+  URL = 'https://open-elie-ldlmarcelo.koyeb.app/hardskill/';
 
   constructor(private http: HttpClient) {
 

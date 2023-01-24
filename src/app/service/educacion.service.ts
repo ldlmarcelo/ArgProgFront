@@ -7,7 +7,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root',
 })
 export class EducacionService {
-  URL = 'open-elie-ldlmarcelo.koyeb.app/Educacion/';
+  URL = 'https://open-elie-ldlmarcelo.koyeb.app/Educacion/';
 
   constructor(private http: HttpClient) {}
 
