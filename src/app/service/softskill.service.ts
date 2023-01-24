@@ -8,7 +8,7 @@ import { softskill } from '../model/softskill';
 })
 
 export class SoftskillService {
-  URL = 'https://open-elie-ldlmarcelo.koyeb.app/softskill/';
+  URL = 'open-elie-ldlmarcelo.koyeb.app/softskill/';
 
   constructor(private http: HttpClient) {
 

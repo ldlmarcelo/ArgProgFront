@@ -9,7 +9,8 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class ExperienciaLaboralService {
-  URL = 'https://open-elie-ldlmarcelo.koyeb.app/ExperienciaLaboral/';
+  URL = 'open-elie-ldlmarcelo.koyeb.app/ExperienciaLaboral/';
+
 
   constructor(private http: HttpClient) {}
 

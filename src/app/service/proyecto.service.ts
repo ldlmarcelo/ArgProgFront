@@ -8,7 +8,7 @@ import { proyecto } from '../model/proyecto';
 })
 export class ProyectoService {
 
-  URL = 'https://open-elie-ldlmarcelo.koyeb.app/proyecto/';
+  URL = 'open-elie-ldlmarcelo.koyeb.app/proyecto/';
 
   constructor(private http: HttpClient) {
 

@@ -8,7 +8,7 @@ import { persona } from '../model/persona.model';
   providedIn: 'root',
 })
 export class PersonaService {
-  URL = 'https://open-elie-ldlmarcelo.koyeb.app/persona/';
+  URL = 'open-elie-ldlmarcelo.koyeb.app/persona/';
   constructor(private http: HttpClient) {}
 
   public getPersona(): Observable<persona> {
