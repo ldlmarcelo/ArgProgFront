@@ -8,7 +8,7 @@ import { proyecto } from '../model/proyecto';
 })
 export class ProyectoService {
 
-  URL = 'https://argprogback1.herokuapp.com/proyecto/';
+  URL = 'https://open-elie-ldlmarcelo.koyeb.app/proyecto/';
 
   constructor(private http: HttpClient) {
 

@@ -8,7 +8,7 @@ import { softskill } from '../model/softskill';
 })
 
 export class SoftskillService {
-  URL = 'https://argprogback1.herokuapp.com/softskill/';
+  URL = 'https://open-elie-ldlmarcelo.koyeb.app/softskill/';
 
   constructor(private http: HttpClient) {
 

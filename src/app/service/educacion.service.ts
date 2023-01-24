@@ -7,7 +7,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root',
 })
 export class EducacionService {
-  URL = 'https://argprogback1.herokuapp.com/Educacion/';
+  URL = 'https://open-elie-ldlmarcelo.koyeb.app/Educacion/';
 
   constructor(private http: HttpClient) {}
 

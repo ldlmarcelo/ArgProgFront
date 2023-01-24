@@ -8,7 +8,7 @@ import { hardskill } from '../model/hardskill';
   providedIn: 'root'
 })
 export class HardskillService {
-  URL = 'https://argprogback1.herokuapp.com/hardskill/';
+  URL = 'https://open-elie-ldlmarcelo.koyeb.app/hardskill/';
 
   constructor(private http: HttpClient) {
 

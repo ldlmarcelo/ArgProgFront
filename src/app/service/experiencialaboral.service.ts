@@ -9,7 +9,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class ExperienciaLaboralService {
-  URL = 'https://argprogback1.herokuapp.com/ExperienciaLaboral/';
+  URL = 'https://open-elie-ldlmarcelo.koyeb.app/ExperienciaLaboral/';
 
   constructor(private http: HttpClient) {}
 
