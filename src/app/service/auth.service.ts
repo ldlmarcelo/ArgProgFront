@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'https://open-elie-ldlmarcelo.koyeb.app/.koyeb.app/auth/';
+  authURL = 'https://open-elie-ldlmarcelo.koyeb.app/auth/';
 
   constructor(private httpClient: HttpClient) { }
 
